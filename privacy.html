@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — Retail Collector</title>
+<style>
+body { margin: 0; color: #122438; background: #f5f8fb; font: 1rem/1.65 system-ui, sans-serif; }
+main { max-width: 44rem; margin: auto; padding: 2rem 1.5rem 4rem; }
+h1, h2 { line-height: 1.2; } h2 { margin-top: 2rem; } a { color: #07569a; }
+</style></head><body><main><nav><a href="index.html">Retail Collector</a></nav>
+<h1>Политика конфиденциальности</h1>
+<h2>Доступ к Google Drive</h2>
+<p>Владелец аккаунта выдаёт разрешение через экран Google OAuth. rclone запрашивает разрешение Google Drive на чтение и запись. Это разрешение технически охватывает файлы, доступные аккаунту. В штатном процессе сборщик использует выбранную папку для создания каталогов, загрузки архивов и отчётов, проверки сведений о файлах и обратного чтения выгруженных копий.</p>
+<h2>Хранение и передача данных</h2>
+<p>Архивы и отчёты хранятся на Ubuntu и в выбранной папке Google Drive. OAuth-токен хранится в закрытом локальном конфигурационном файле rclone. Сборщик передаёт координатору состояние и диагностические отчёты о своей работе. Содержимое файлов Drive и OAuth-токен в координатор не передаются. Доступ к облачным копиям управляется разрешениями папки Google Drive.</p>
+<h2>Отзыв доступа и удаление</h2>
+<p>Владелец аккаунта может отозвать доступ в настройках <a href="https://myaccount.google.com/connections">подключений Google</a>. Загруженные копии остаются в Drive, пока владелец не удалит их через интерфейс Drive. Локальные копии хранятся на Ubuntu и управляются оператором сборщика.</p>
+<p>Использование данных, полученных через Google API, ограничивается описанной функцией выгрузки и проверки доставки и регулируется <a href="https://developers.google.com/terms/api-services-user-data-policy">правилами Google API Services User Data Policy</a>, включая требования Limited Use.</p></main></body></html>
